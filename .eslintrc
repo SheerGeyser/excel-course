@@ -1,0 +1,17 @@
+{
+ "parser": "@babel/eslint-parser",
+ "parserOptions": {
+  "requireConfigFile": false,
+  "ecmaVersion": 8
+ },
+ "env": {
+  "browser": true,
+  "node": true
+ },
+ "extends": ["eslint:recommended", "google"],
+ "rules": {
+  "semi": "off",
+  "arrow-parens": "off",
+  "comma-dangle": "off",
+ }
+}
